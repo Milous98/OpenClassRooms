@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset ="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact - Karl Dupuy</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <!--Bar de navigation-->
+        <nav class="navbar">
+            <div class="nav-links">
+                <ul>
+                    <li class=""><a href="index.html">Portfolio</a></li>
+                    <li class=""><a href="a-propos.html">À propos</a></li>
+                    <li class=""><a href="prestations.html">Prestations</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
+                </ul>  
+            </div>
+            <img src="images/icones/burger-bar.png" alt="menu hamburger" class="menu-hamburger">
+        </nav>   
+        <!--En tête du site-->
+        <header>  
+            <div class="bannière">    
+                <!--Bannière en-tête avec photo de profil-->
+                <div class="texte-banniere">
+                    <h1>Karl DUPUY</h1>
+                    <h2>Photographe, vidéaste. Rennes</h2>
+                </div>
+                <!--Réseaux sociaux-->
+                <div class="RS-icones">
+                    <a href="https://www.instagram.com/karldp.photo/"><img src="images/icones/instagram.png" alt="Icône Instagram" title="Instagram de Karl Dupuy" class="RS"></a>
+                    <a href="https://www.linkedin.com/in/karl-dupuy-dev/"><img src="images/icones/linkedin.png" alt="Icône LinkedIn" title="LinkedIn de Karl Dupuy" class="RS"></a>
+                </div>
+                <div class="contour-photo-profil">
+                    <img src="images/profil/karl-dupuy-minia.jpg" alt="Photo de Karl Dupuy Photographe Vidéaste Rennes" title="Karl Dupuy" id="photo-profil"/>
+                </div>
+            </div>
+        </header>
+        <!--En tête du site-->    
+        <main>
+            <section>
+                <h3 class="Titre">Besoin d'informations ?</h3>
+                <p>Pour toute demande de renseignements, de devis ou de collaboration, n'hésitez pas à me contacter via le formulaire ci-dessous :</p>
+                <!--Insérer un formulaire de contact ici-->
+                <div class="formulaire-contact">
+                    <fieldset>
+                        <legend>Un projet ?</legend>
+                        <form action="" method="get">
+                            <label for="nom">Nom prénom</label>
+                            <input type="text" id="nom" name="nom" required>
+                            <br>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                            <br>
+                            <label for="tel">Téléphone</label>
+                            <input type="tel" id="tel" name="tel" placeholder="+33">
+                            <br>
+                            <label for="message">Votre message</label>
+                            <textarea id="message" name="message" rows="4" cols="50">Bonjour Karl, je souhaiterai des renseignements</textarea>
+                            <br>
+                            <input type="submit" value="Envoyer" id="button-envoyer">
+                        </form>
+                    </fieldset>
+                </div>
+            </section>
+        </main> 
+        <!--Pied de page-->
+        <footer>
+            <section class="lien-RS-footer">
+                <div class="logo-pfp-footer">
+                    <a href="index.html"><img src="images/profil/logo_14-PFP.png" alt="Logo Karl Dupuy PressFProduction" title="Retour à l'accueil" class="logo-pfp"></a>
+                </div>
+                <div class="RS-icones">
+                    <a href="https://www.instagram.com/karldp.photo/"><img src="images/icones/instagram.png" alt="Icône Instagram" title="Instagram de Karl Dupuy" class="RS"></a>
+                    <a href="https://www.linkedin.com/in/karl-dupuy-dev/"><img src="images/icones/linkedin.png" alt="Icône LinkedIn" title="LinkedIn de Karl Dupuy" class="RS"></a>
+                </div>
+            </section>
+            <section class="lien-footer">
+                <a href="a-propos.html">En savoir plus sur moi</a><br><br>
+                <a href="prestations.html">Découvrir mes prestations</a><br><br>
+                <a href="contact.html">Me contacter</a> 
+            </section>
+        </footer>
+        <!--Pied de page-->
+    </body>
+</html>
